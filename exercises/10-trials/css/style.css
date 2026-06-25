@@ -1,0 +1,48 @@
+#t1-p1 {
+    color: green;
+}
+#t2-s2 {
+    color: #f711f7;
+}
+#t3-s3 {
+    color: red;
+}
+#t3-s4 {
+    color: goldenrod;
+}
+#t3-s5 {
+    color: blue;
+}
+#t4 {
+    background-color: skyblue;
+}
+#t5-s1 {
+    background-color: yellow;
+}
+#t6-s1 {
+    font-weight: 600;
+}
+#t7-s1 {
+    font-style: italic;
+}
+#t7-s2 {
+    font-weight: 600;
+}
+#t7-s3 {
+    font-style: italic;
+}
+#t8-s1 {
+    text-decoration: underline;
+}
+#t9-s1 {
+    font-size: 36px;
+}
+#t10-s1 {
+    font-size: 12px;
+}
+#t10-s2 {
+    font-size: 48px;
+}
+#t10-s3 {
+    font-size: 24px;
+}
