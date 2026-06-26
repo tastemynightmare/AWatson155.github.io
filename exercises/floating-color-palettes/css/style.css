@@ -1,0 +1,46 @@
+.color-palette {
+    box-shadow: 2px 2px 5px #989898;
+    text-align: center;
+    margin: 24px;
+    padding: 24px;
+}
+.color {
+    margin: 0px;
+    padding: 15px;
+}
+#p1-c1 {
+    background-color: #db2578;
+    color: white;
+}
+#p1-c2 {
+    background-color: #e80946;
+    color: white;
+}
+#p1-c3 {
+    background-color: #710027;
+    color: white;
+}
+#p2-c1 {
+    background-color: #001772;
+    color: white;
+}
+#p2-c2 {
+    background-color: #1c3dd6;
+    color: white;
+}
+#p2-c3 {
+    background-color: #d7d9e1;
+    color: black;
+}
+#p3-c1 {
+    background-color: #00ff06;
+    color: black;
+}
+#p3-c2 {
+    background-color: #000000;
+    color: white;
+}
+#p3-c3 {
+    background-color: #005802;
+    color: white;
+}
