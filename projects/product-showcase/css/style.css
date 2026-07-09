@@ -1,0 +1,54 @@
+body {
+margin:0;
+font-family:Arial, sans-serif;
+background:white;
+}
+
+.container {
+width:70%;
+margin:auto;
+text-align:center;
+padding:60px 0;
+}
+
+.hero {
+background:#000;
+color:white;
+}
+
+.lenses {
+background:#f2f2f2;
+}
+
+.editing {
+background:white;
+}
+
+img {
+width:100%;
+max-width:500px;
+margin:20px 0;
+}
+
+h1,
+h2 {
+font-family:"Montserrat", sans-serif;
+}
+
+p {
+line-height:1.6;
+margin-bottom:25px;
+}
+
+a{
+display:inline-block;
+text-decoration:none;
+background:#0066ff;
+color:white;
+padding:12px 25px;
+border-radius:6px;
+}
+
+a:hover {
+background:#004acc;
+}
