@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+/* Navbar */
+
+header {
+    background-color: #3665f3;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.nav-right {
+    margin-left: auto;
+}
+
+
+/* Product Layout */
+
+.product-layout {
+    display: flex;
+    gap: 30px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+/* Small Images */
+
+.thumbnails {
+    width: 100px;
+}
+
+.thumbnails img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border: 1px solid lightgray;
+    margin-bottom: 15px;
+}
+
+
+/* Main Product Image */
+
+.main-image {
+    flex: 1;
+}
+
+.main-image img {
+    width: 100%;
+    max-width: 500px;
+}
+
+
+/* Product Information */
+
+.product-info {
+    width: 400px;
+}
+
+.product-info h1 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.product-info h2 {
+    font-size: 30px;
+    color: #333;
+}
+
+
+.seller {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 15px 0;
+}
+
+.seller a {
+    color: #3665f3;
+}
+
+
+.condition {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+
+/* Buttons */
+
+.button {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Buy Button */
+
+.buy {
+    background-color: #3665f3;
+    color: white;
+}
+
+
+/* Cart Button */
+
+.cart {
+    background-color: white;
+    color: #3665f3;
+    border: 2px solid #3665f3;
+}
+
+
+/* Wishlist Button */
+
+.wish {
+    background-color: #eeeeee;
+    color: black;
+}
+
+
+.button:hover {
+    opacity: .8;
+}
