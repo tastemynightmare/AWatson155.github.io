@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     background-color: #d7d7d7;
 }
 
@@ -18,18 +20,22 @@ body {
 }
 
 header h3 {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 400;
 }
 
 header h1 {
-    font-size: 64px;
+    font-size: 80px;
     margin: 10px 0;
 }
 
+header h2 {
+    font-size: 24px;
+}
+
 header p {
-    margin-top: 20px;
-    font-size: 22px;
+    margin-top: 24px;
+    font-size: 24px;
 }
 
 #teams {
@@ -54,11 +60,12 @@ header p {
 
 .team-card h2 {
     margin-top: 20px;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 .team-card p {
     margin-top: 8px;
+    font-size: 20px;
     color: #4a4949;
 }
 
