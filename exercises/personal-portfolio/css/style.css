@@ -204,6 +204,11 @@ ul {
 .project-card h3 {
     margin-bottom: 15px;
     color: #b30000;
+    background: #000;
+    background-size: 6px 4px;
+    padding: 6px 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 .project-card p {
@@ -228,7 +233,7 @@ ul {
 
 .blender-gallery img {
     height: 150px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* ========================= */
