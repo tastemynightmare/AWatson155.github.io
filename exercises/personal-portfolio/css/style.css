@@ -93,6 +93,14 @@ ul {
    HERO CONTENT
 ========================== */
 
+.hero {
+    height: 100vh;
+    background-image: url("../images/ashelic-hero.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .hero-content {
     max-width: 700px;
     margin: auto 0;
@@ -104,12 +112,16 @@ ul {
     font-size: 5.5rem;
     text-transform: uppercase;
     margin-bottom: 10px;
+    color: white;
 }
 
 .hero-content h3 {
     color: #b30000;
     margin-bottom: 25px;
     letter-spacing: 2px;
+    background-color: white;
+    padding: 6px 0px;
+    margin: 6px;
 }
 
 .hero-content p {
@@ -159,8 +171,8 @@ ul {
 
 .project-container {
     display: grid;
-    grid-template-columns: repeat (auto-fit, minmax (100px, 1fr));
-    gap: 35px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 
 .project-card {
@@ -244,6 +256,7 @@ ul {
 .about-container h4 {
     color: #b30000;
     margin-bottom: 30px;
+    font-size: 20px;
 }
 
 .about-container p {
