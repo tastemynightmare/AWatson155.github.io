@@ -1,0 +1,154 @@
+#license {
+    width: 700px;
+    background-color: #f5f5dc;
+    border: 5px solid #222;
+    border-radius: 20px;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    color: #111;
+}
+
+/* Florida title */
+
+#content > h1 {
+    text-align: center;
+    margin: 0 0 15px 0;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+/* LEFT SIDE */
+
+#left-side {
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+}
+
+#left-side h4 {
+    text-align: center;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+/* License number and expiration */
+
+#id-and-expiration div {
+    display: inline-block;
+    width: 48%;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#id-and-expiration span {
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* Address */
+
+#address {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+/* Personal information */
+
+#small-pic-container,
+#data-fields {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#small-pic-container {
+    width: 35%;
+}
+
+#small-pic-container img {
+    width: 120px;
+    height: 140px;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+/* Data fields */
+
+#data-fields {
+    width: 60%;
+}
+
+#data-left,
+#data-right {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+#data-left div,
+#data-right div {
+    margin-bottom: 8px;
+}
+
+#data-fields span {
+    font-weight: bold;
+}
+
+/* Signature */
+
+#signature {
+    margin-top: 20px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    border-bottom: 1px solid black;
+}
+
+/* RIGHT SIDE */
+
+#right-side {
+    display: inline-block;
+    width: 34%;
+    vertical-align: top;
+    padding-left: 15px;
+}
+
+#right-side img {
+    width: 100%;
+    border: 2px solid black;
+}
+
+/* Donor and Real ID */
+
+#donor,
+#real-id {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+#donor {
+    width: 70%;
+    background-color: #eee;
+    font-weight: bold;
+}
+
+#real-id {
+    width: 25%;
+    background-color: gold;
+}
+
+#donor i {
+    color: red;
+}
+
+#real-id i {
+    color: white;
+}
